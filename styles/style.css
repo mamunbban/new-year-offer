@@ -1,0 +1,104 @@
+
+.container{
+    margin: 0 auto;
+}
+
+.banner-box{
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url(../images/Banner\ Image.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    border: 2px solid red;
+    margin: 16px auto;
+}
+.banner-content{
+   margin-top: 220px;
+  
+
+}
+.banner-title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 32px;
+    margin: 0px;
+}
+.banner-des{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 72px;
+    margin: 0px;
+    margin-top: 16px;
+}
+
+.discount{
+    width: 800px;
+    border: 2px solid red;
+    margin: 120px auto;
+    text-align: center;
+}
+.discount img{
+    
+}
+.discount h1{
+    font-size: 88px;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+.discount p{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(255, 0, 0);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.discount h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(7, 2, 17);
+    margin-top: 16px;
+}
+
+.running-year{
+    background-image:linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid red;
+    width: 100%;
+    height: 650px;
+    border-radius: 16px;
+}
+.running-year-box{
+    display: flex;
+    justify-content: space-around;
+}
+.running-year-img{
+    width: 349.16px;
+    height: 464.65px;
+    margin-top: 68px;
+}
+.running-year-content{
+    margin-top: 126px   ;
+}
+.running-year-content h1{
+    width: 642px;
+    height: 176px;
+    font-size: 64px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.running-year-content p{
+    font-size: 18px;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.join-now{
+    margin-left: 20px;
+    
+}
