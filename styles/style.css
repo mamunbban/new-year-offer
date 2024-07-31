@@ -3,6 +3,8 @@
     margin: 0 auto;
 }
 
+/* banner styles start */
+
 .banner-box{
     width: 100%;
     height: 650px;
@@ -30,7 +32,8 @@
     margin: 0px;
     margin-top: 16px;
 }
-
+/* banner styles end */
+/* Discount styles start */
 .discount{
     width: 800px;
     border: 2px solid red;
@@ -60,6 +63,7 @@
     color: rgb(7, 2, 17);
     margin-top: 16px;
 }
+
 
 .running-year{
     background-image:linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../images/Vectorrr.png);
@@ -102,3 +106,83 @@
     margin-left: 20px;
     
 }
+/* Discount styles end*/
+/* Venue styles start */
+.venue{
+    width: 100%;
+    height: 482px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    align-content: center;
+    
+}
+.venue-content{
+    width: 550px;
+    height: 272px;
+    align-content: center;
+    margin: 0px auto;
+}
+.venue-content p{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(7, 2, 17, 1.00);
+    text-align: center;
+    margin: 20px;
+}
+.span{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+}
+.btn-prymary{
+    width: 167px;
+    height: 56px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    margin-left: 191px;
+}
+/* Venue styles end */
+
+/* Best offer styles start */
+.new-best-offer{
+    width: 100%;
+    height: 463px;
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.offer-content{
+    width: 393px;
+    height: 128px;
+}
+.offer-img{
+    width: 463px;
+    height: 463px;
+    border-radius: 50%;
+    border: 15px solid rgb(255, 0, 0);
+    
+}
+.offer-img img{
+    width: 364.84px;
+    height: 364.84px;
+    margin: 49.08px;
+    
+    
+}
+.last-content{
+    width: 276px;
+    height: 170px;
+}
+
+/* Best offer styles end */
+
