@@ -155,7 +155,6 @@
 .new-best-offer{
     width: 100%;
     height: 463px;
-    border: 3px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -164,12 +163,13 @@
 .offer-content{
     width: 393px;
     height: 128px;
+    
 }
 .offer-img{
     width: 463px;
     height: 463px;
     border-radius: 50%;
-    border: 15px solid rgb(255, 0, 0);
+    border: 15px solid rgb(255, 0, 0)
     
 }
 .offer-img img{
@@ -182,7 +182,92 @@
 .last-content{
     width: 276px;
     height: 170px;
+    
+}
+
+.offer-content h4{
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    margin: 0px;
+}
+.new-best-offer-title{
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 22px;
+    font-size: 20px;
+}
+.new-best-offer-content{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(255, 0, 0);
+    margin-bottom: 16px;
+
+}
+
+.last-content h1{
+    color: rgb(255, 0, 0);
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.last-content p{
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 22px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.last-content-box{
+    margin-top: 250px;
+    padding-left: 160px;
 }
 
 /* Best offer styles end */
+
+.holidays-sec{
+    width: 100%;
+    height: 986px;
+    border: 2px solid red;
+    position: relative;
+}
+.holidays-img{
+    width: 100%;
+    margin-top: 725px;
+    
+}
+.holidays-img2{
+    position: absolute;
+    top: 320px;
+
+}
+.holidays-img3{
+    position: absolute;
+    bottom: 290px;
+    right: 30px;
+}
+.holidays-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(16, 16, 16);
+    margin: 0px;
+    position: absolute;
+}
+.holidays-sec h1{
+    font-size: 72px;
+    margin: 0px;
+    position: absolute;
+    top: 50px;
+    text-align: center;
+}
+.holidays{
+    color: rgb(255, 0, 0);
+    margin: 0px;
+    
+}
+.holidays-des{
+    margin: 0px;
+    position: absolute;
+    top: 120px;
+    text-align: center;
+}
 
